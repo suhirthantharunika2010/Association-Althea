@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Althéa</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+		<div class="navigation"> 
+			<img src="images1/o.png" width="30" height="20" alt="o">	
+		</div>
+		<ul>
+			<li><a href="index.html">𖠿Home</a></li>
+			<li><a href="activity.html">⚽︎Activités</a></li>
+			<li><a href="achat.html">🛒Achat</a></li>
+			<li><a href="casting.html">☆Casting</a></li>
+
+			
+		</ul>
+
+    
+    </nav>
+
+	<search>
+  <form id="searchForm">
+    <label for="activites">Search 🔍</label>
+    <input type="search" id="activites">
+    <button type="submit">Rechercher</button>
+  </form>
+</search>
+
+<script>
+document.getElementById("searchForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    let recherche = document.getElementById("activites").value.toLowerCase();
+
+    if (recherche === "home") {
+        window.location.href = "index.html";
+    } else if (recherche === "activités"){
+		window.location.href = "activity.html";
+	} else if (recherche === "achat") {
+        window.location.href = "achat.html";
+    } else if (recherche === "casting") {
+        window.location.href = "casting.html";
+    } else {
+        alert("Aucun résultat trouvé.");
+    }
+});
+</script>
+
+    <br>
+    <br>
+    <div class="foot1">
+    	<div class="carte">
+    	<img src="images1/bb.png" alt="bb">
+        <p>ballon du club A.F.C</p>
+    	<p>€9,99</p>
+    	</div>
+
+    	<div class="carte">
+    	<img src="images1/cr.png" alt="cr">
+        <p>crampon du club A.F.C</p>
+    	<p>€29,99</p>
+    	</div>
+
+    	<div class="carte">
+    	<img src="images1/og.png" alt="og">
+        <p>gourde isothèrme du club A.F.C</p>
+    	<p>€9,99</p>
+    	</div>
+
+    	<div class="carte">
+    	<img src="images1/ogp.png" alt="ogp">
+        <p>gourde en plastique A.F.C</p>
+    	<p>€9,99</p>
+    	</div>
+
+    	<div class="carte">
+    	<img src="images1/mai.png" alt="mai">
+        <p>gourde en plastique A.F.C</p>
+    	<p>€29,99</p>
+    	</div>
+    </div>
+
+	
+
+</body>
+</html>

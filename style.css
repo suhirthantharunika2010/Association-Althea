@@ -1,0 +1,163 @@
+@font-face{
+	font-family: "classicmarket";
+	src:url("fonts/classicmarket.otf");
+}
+@font-face{
+	font-family: "gentlehearts";
+	src:url("fonts/gentlehearts.otf");
+}
+
+body{
+	background-color: #9fc7aa;
+
+}
+
+nav{
+	background-color: pink;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+  display: flex;
+}
+
+ul li{
+	margin-right: 30px;
+}
+
+ul li a{
+	font-size: 17px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+ul li a:hover{
+	color: hotpink;
+}
+
+a:hover{
+	color: hotpink;
+
+}
+
+h1{
+	color: hotpink;
+	font-size: 65px;
+	font-family: gentlehearts;	
+}
+
+img{
+	width:200px;
+	height:auto;
+}
+
+.trouver {
+    display: flex;
+    align-items: center; 
+    gap: 20px;           
+}
+
+.trouver img {
+    width: 500px;
+    height: auto;
+}
+
+.navigation a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+p 
+{
+	color : white;
+	font-size: 20px;
+}
+
+video
+{
+	width: 1000px;
+	height: auto;
+}
+
+.foot 
+{
+	display: flex;
+	justify-content: space-around;
+	gap: 5px ;
+}
+
+.trouver {
+    display: flex;
+    align-items: center; 
+    gap: 20px;           
+}
+
+.trouver img {
+    width: 500px;
+    height: auto;
+}
+
+.navigation a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+p 
+{
+	color : white;
+	font-size: 20px;
+}
+
+video
+{
+	width: 1000px;
+	height: auto;
+}
+
+.foot 
+{
+	display: flex;
+	justify-content: space-around;
+	gap: 5px ;
+}
+
+.carte img{
+	width: 200px;
+	height: auto;
+}
+
+.foot {
+    display: flex;
+    align-items: center; 
+    gap: 20px;           
+}
+
+.foot img {
+    width: 300px;
+    height: auto;
+	align-items: center;
+}
+
+.foot1 {
+	
+	padding: 20px 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
